@@ -1,0 +1,95 @@
+/* Write your CSS code here */
+.home-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    width: 50%;
+    align-items: flex-start;
+  }
+}
+
+.home-heading {
+  font-size: 38px;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    text-align: left;
+    font-size: 46px;
+    width: 80%;
+    margin-bottom: 5px;
+  }
+}
+
+.home-image {
+  width: 240px;
+  height: 240px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-image {
+    display: none;
+  }
+}
+
+.home-description {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 15px;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    text-align: left;
+    font-size: 24px;
+  }
+}
+
+.home-button {
+  width: 150px;
+  height: 36px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #0967d2;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.home-desktop-image {
+  width: 450px;
+  height: 450px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .home-desktop-image {
+    display: none;
+  }
+}

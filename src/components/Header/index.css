@@ -1,0 +1,92 @@
+/* Write your CSS code here */
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar {
+    width: 92%;
+  }
+}
+
+.nav-bar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-content {
+    justify-content: space-between;
+  }
+}
+
+.website-logo {
+  width: 110px;
+  height: 22px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.logout-image {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-image {
+    display: none;
+  }
+}
+
+.nav-bar-container-xs-s {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  background-color: #e6f6ff;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-container-xs-s {
+    display: none;
+  }
+}
+
+.app-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-item-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .nav-item-desktop {
+    display: none;
+  }
+}
+
+.nav-logout-button {
+  width: 60px;
+  height: 30px;
+  background-color: #0967d2;
+  border: 0px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
